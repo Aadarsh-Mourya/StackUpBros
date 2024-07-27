@@ -3,12 +3,12 @@
 #include <TimeLib.h>
 
 
-const char* ssid = "OMEN16 5213";
+const char* ssid = "ssid";
 const char* password = "0000000000";
 
 
 unsigned long myChannelNumber = 2610572;
-const char* myWriteAPIKey = "WCQ61XWF45F3M7GV";
+const char* myWriteAPIKey = "api";
 
 WiFiClient client;
 
@@ -87,13 +87,12 @@ void loop() {
         break;
       } else {
         Serial.println("Failed to send data, retrying...");
-        delay(5000); // Wait 5 seconds before retrying
+        delay(500); // Wait 5 seconds before retrying
       }
     }
 
     if (!success) {
       Serial.println("Failed to send data after maximum retries");
-      // Implement additional error handling if necessary
     }
 
     pulseCount = 0;
