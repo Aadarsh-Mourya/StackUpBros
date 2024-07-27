@@ -1,5 +1,7 @@
 <H1> Water Supply Management </H1>
 
+[<ahref](https://water-supply-management-3sdabtfkcdpcxq47nk97mp.streamlit.app/#household-data-for-ward-annapurna)
+
 Indore faces significant challenges in its water supply and sewerage systems and has declared a water emergency. 
 
 The reliance on water from the distant Narmada River, transported via a costly pipeline, has revealed several critical issues. These include unmetered water connections, substantial leakage from old pipelines, and unauthorized connections, leading to inefficiencies and inequitable distribution. 
