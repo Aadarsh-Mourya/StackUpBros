@@ -8,6 +8,7 @@ This project uses an ESP8266 to monitor water usage with a water meter sensor an
 - Water meter sensor
 - WiFi network
 - ThingSpeak account
+
 ![alt text](https://github.com/Aadarsh-Mourya/StackUpBros/blob/7303c59e9d2b1a07949c8ab715c6a71ff71c2881/Data%20Collection/WhatsApp%20Image%202024-07-27%20at%2018.03.25_5331fda8.jpg)
 
 ## Setup
