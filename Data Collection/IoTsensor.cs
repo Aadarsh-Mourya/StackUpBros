@@ -31,6 +31,31 @@ void reconnectWifi() {
   Serial.println("Connected to WiFi");
 }
 
+// Function to calculate water volume based on pulse count
+// You'll need to calibrate this function according to your specific water meter sensor
+int calculateWaterVolume(int pulses) {
+  float volumePerPulse = 0.1; // Example: 0.1 liters per pulse
+  return int(pulses * volumePerPulse);
+}
+
+void setup() {
+  Serial.begin(115200);
+  WiFi.begin(ssid, password);
+
+  // Connect to WiFi
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("\nWiFi connected");
+
+  ThingSpeak.begin(client);
+  
+  // Set up the water meter sensor
+  pinMode(sensorPin, INPUT_PULLUP);
+  attachInterrupt(digitalPinToInterrupt(sensorPin), pulseCounter, FALLING);
+}
+
 void loop() {
   delay(86400000); // Collect data once every 24 hours
   detachInterrupt(sensorPin);
