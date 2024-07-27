@@ -1,6 +1,6 @@
 # Water Meter Sensor with ThingSpeak
 
-This project uses an ESP8266 to monitor water usage with a water meter sensor and send data to ThingSpeak.
+This project uses an ESP8266 to monitor water usage with a water meter sensor and send data to ThingSpeak (a cloud platform by MathWorks).
 
 ## Components
 
