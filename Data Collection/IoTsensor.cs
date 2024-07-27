@@ -32,11 +32,13 @@ void reconnectWifi() {
 }
 
 // Function to calculate water volume based on pulse count
-// You'll need to calibrate this function according to your specific water meter sensor
+
 int calculateWaterVolume(int pulses) {
-  float volumePerPulse = 0.1; // Example: 0.1 liters per pulse
-  return int(pulses * volumePerPulse);
+  float pulsesPerLiter = 11.0; // Given F = 11 * Q, so pulses per liter is 11
+  float volume = pulses / pulsesPerLiter; // Calculate volume in liters
+  return int(volume);
 }
+
 
 void setup() {
   Serial.begin(115200);
