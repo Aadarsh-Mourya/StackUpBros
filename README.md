@@ -15,6 +15,19 @@ Our objectives for these problems are:
 2. To develop a system for ongoing data collection on water usage at the household level to facilitate comprehensive analysis and reporting.
 3. To track the substantial loss of water and leakages due to old and worn-out pipelines.
 
+## Project Components
+
+1. **Water Flow Sensing:**
+   - Sensors installed at various points in the water distribution network to measure water flow.
+   - Data fields include volume of water flowed, water tank ID, and date.
+
+2. **Data Transmission and Storage:**
+   - Data collected from sensors sent to ThingSpeak or a similar platform.
+   - Ensure data is formatted as integers and dates for consistency and accuracy.
+
+3. **Monitoring and Reporting:**
+   - Develop a dashboard to monitor water distribution and usage.
+   - Generate reports to aid in decision-making and address inefficiencies.
 
 <h1>Detailed Steps Data Collection:</h1>
 <img src="Water Distribution Data Collection.drawio (1).png" alt="Data Collection Diagram">
