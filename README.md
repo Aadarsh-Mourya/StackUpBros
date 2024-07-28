@@ -1,7 +1,5 @@
 <H1> Water Supply Management </H1>
 
-[link to project](https://water-supply-management-3sdabtfkcdpcxq47nk97mp.streamlit.app/#household-data-for-ward-annapurna)
-
 Indore faces significant challenges in its water supply and sewerage systems and has declared a water emergency. 
 
 The reliance on water from the distant Narmada River, transported via a costly pipeline, has revealed several critical issues. These include unmetered water connections, substantial leakage from old pipelines, and unauthorized connections, leading to inefficiencies and inequitable distribution. 
@@ -20,8 +18,16 @@ Our objectives for these problems are:
 
 <h1>Detailed Steps Data Collection:</h1>
 <img src="Water Distribution Data Collection.drawio (1).png" alt="Data Collection Diagram">
+
 The water distribution system's data collection begins by identifying the wards and their respective overhead tanks, including each ward's unique LGD Code and total water requirements. 
+
 Within each ward, houses are uniquely numbered, and detailed information is gathered, including house numbers, family details, addresses, total members, and individual water requirements. 
+
 Meter readings are regularly recorded to monitor water consumption. Pipes connected to the overhead tanks are identified by their unique IDs and dimensions, while sensors are installed at critical points to measure water flow. 
+
 Sensor data, including water flow readings and timestamps, is collected and integrated into a central database. 
+
+
+
+Find the Project [Here](https://water-supply-management-3sdabtfkcdpcxq47nk97mp.streamlit.app/#household-data-for-ward-annapurna)
 
