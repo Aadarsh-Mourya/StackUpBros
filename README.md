@@ -21,7 +21,7 @@ Our objectives for these problems are:
 
 The water distribution system's data collection begins by identifying the wards and their respective overhead tanks, including each ward's unique LGD Code and total water requirements.
 <h2>Confusion Matrix</h2>
-![image](https://github.com/user-attachments/assets/23303c6e-033b-48b2-8b26-3c2c8e089cfe)
+<img src="output.png" alt="Data Collection Diagram">
 
 Within each ward, houses are uniquely numbered, and detailed information is gathered, including house numbers, family details, addresses, total members, and individual water requirements. 
 
