@@ -19,7 +19,9 @@ Our objectives for these problems are:
 <h1>Detailed Steps Data Collection:</h1>
 <img src="Water Distribution Data Collection.drawio (1).png" alt="Data Collection Diagram">
 
-The water distribution system's data collection begins by identifying the wards and their respective overhead tanks, including each ward's unique LGD Code and total water requirements. 
+The water distribution system's data collection begins by identifying the wards and their respective overhead tanks, including each ward's unique LGD Code and total water requirements.
+<h2>Confusion Matrix</h2>
+![image](https://github.com/user-attachments/assets/23303c6e-033b-48b2-8b26-3c2c8e089cfe)
 
 Within each ward, houses are uniquely numbered, and detailed information is gathered, including house numbers, family details, addresses, total members, and individual water requirements. 
 
